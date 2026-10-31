@@ -48,7 +48,7 @@ for (const [fx, out] of SNIMKY) {
   await p.setContent(`<!doctype html><meta charset=utf-8><style>
     body{margin:0;width:1280px;height:800px;position:relative;overflow:hidden;background:#FAF9F7}
     .st{position:absolute;inset:0;width:1280px;height:800px}
-    .pp{position:absolute;top:48px;right:48px;width:${sirka}px;height:${vyska}px;overflow:hidden;border-radius:12px;
+    .pp{position:absolute;top:28px;right:48px;width:${sirka}px;height:${vyska}px;overflow:hidden;border-radius:12px;
         border:1px solid rgba(11,25,66,.14);box-shadow:0 12px 40px rgba(10,10,12,.18);background:#F2F0EE}
     .pp img{display:block;width:${1280 * Z}px;height:${800 * Z}px}
   </style><img class=st src="${stranka}"><div class=pp><img src="${popup}"></div>`);
