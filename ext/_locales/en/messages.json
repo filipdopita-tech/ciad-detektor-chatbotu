@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Chatbot Detector by CIAD"
+  },
+  "extDescription": {
+    "message": "Shows whether a page has a chat window (chatbot) and whether the interface says a machine is replying. Sends and stores nothing."
+  },
+  "popupTitle": {
+    "message": "Chatbot Detector"
+  },
+  "checking": {
+    "message": "Checking the page"
+  },
+  "rowChat": {
+    "message": "Chat window"
+  },
+  "chatFound": {
+    "message": "Found"
+  },
+  "chatNotFound": {
+    "message": "Not found"
+  },
+  "chatScriptOnly": {
+    "message": "The page code contains a chat script, but no window was rendered."
+  },
+  "vendor": {
+    "message": "Vendor: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "vendorUnknown": {
+    "message": "Vendor not identified, probably a custom or unknown solution."
+  },
+  "vendorHybrid": {
+    "message": "This tool supports both human agents and bots; without opening the window this cannot be decided."
+  },
+  "rowMachine": {
+    "message": "A machine is replying"
+  },
+  "machineFound": {
+    "message": "Signal found"
+  },
+  "machineNotFound": {
+    "message": "Signal not found"
+  },
+  "machineUnknown": {
+    "message": "Cannot be determined"
+  },
+  "quote": {
+    "message": "“$1”",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "notOpened": {
+    "message": "We did not open the window."
+  },
+  "unsupportedTitle": {
+    "message": "This page cannot be checked"
+  },
+  "unsupportedText": {
+    "message": "The extension has no access to it, for example browser pages or the Chrome Web Store."
+  },
+  "signalOnly": {
+    "message": "A signal, not a legal assessment."
+  },
+  "art50": {
+    "message": "Article 50(1) of Regulation (EU) 2024/1689 places an obligation on providers of AI systems intended to interact directly with natural persons. A live chat with a human is not covered by it."
+  },
+  "howWeMeasure": {
+    "message": "How we measure"
+  }
+}

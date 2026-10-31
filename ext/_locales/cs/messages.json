@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Detektor chatbotů · CIAD"
+  },
+  "extDescription": {
+    "message": "Ukáže, zda stránka má chatovací okno (chatbot) a zda rozhraní sděluje, že odpovídá stroj. Nic neodesílá ani neukládá."
+  },
+  "popupTitle": {
+    "message": "Detektor chatbotů"
+  },
+  "checking": {
+    "message": "Kontroluji stránku"
+  },
+  "rowChat": {
+    "message": "Chatovací okno"
+  },
+  "chatFound": {
+    "message": "Nalezeno"
+  },
+  "chatNotFound": {
+    "message": "Nenalezeno"
+  },
+  "chatScriptOnly": {
+    "message": "V kódu stránky je chatovací skript, okno se ale nevykreslilo."
+  },
+  "vendor": {
+    "message": "Dodavatel: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "vendorUnknown": {
+    "message": "Dodavatel neurčen, patrně vlastní nebo neznámé řešení."
+  },
+  "vendorHybrid": {
+    "message": "Tento nástroj umí obsluhu člověkem i bota, bez otevření okna to nelze rozhodnout."
+  },
+  "rowMachine": {
+    "message": "Odpovídá stroj"
+  },
+  "machineFound": {
+    "message": "Signál nalezen"
+  },
+  "machineNotFound": {
+    "message": "Signál nenalezen"
+  },
+  "machineUnknown": {
+    "message": "Nelze určit"
+  },
+  "quote": {
+    "message": "„$1“",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  },
+  "notOpened": {
+    "message": "Okno jsme neotevírali."
+  },
+  "unsupportedTitle": {
+    "message": "Tuto stránku nelze zkontrolovat"
+  },
+  "unsupportedText": {
+    "message": "Rozšíření k ní nemá přístup, například u stránek prohlížeče nebo Internetového obchodu Chrome."
+  },
+  "signalOnly": {
+    "message": "Signál, ne právní posouzení."
+  },
+  "art50": {
+    "message": "Čl. 50 odst. 1 nařízení (EU) 2024/1689 ukládá povinnost poskytovatelům systémů AI určených k přímé interakci s fyzickými osobami. Živý chat s člověkem pod ni nespadá."
+  },
+  "howWeMeasure": {
+    "message": "Jak měříme"
+  }
+}

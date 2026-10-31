@@ -1,0 +1,22 @@
+@font-face{font-family:Aspekta;font-weight:400;src:url(fonts/Aspekta-400.woff2) format("woff2")}
+@font-face{font-family:Aspekta;font-weight:500;src:url(fonts/Aspekta-500.woff2) format("woff2")}
+:root{--paper:#F2F0EE;--surface:#FAF9F7;--blue:#1E3A8A;--blue2:#3B62D1;--ink:#0A0A0C;--slate:#454B5E;--ledger-text:#6E6961;--hairline:rgba(11,25,66,.14)}
+*{box-sizing:border-box}
+body{margin:0;width:380px;background:var(--paper);color:var(--ink);font:400 13px/1.5 Aspekta,-apple-system,"Segoe UI","Helvetica Neue",sans-serif}
+header{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--hairline)}
+header img{display:block}
+h1{margin:0;font-size:15px;font-weight:500;letter-spacing:.01em}
+main{padding:12px 16px 4px}
+.radek{background:var(--surface);border:1px solid var(--hairline);border-left:3px solid var(--ledger-text);border-radius:12px;padding:10px 12px;margin:0 0 10px}
+.radek.ano{border-left-color:var(--blue)}
+.radek .nazev{margin:0;font-size:11px;color:var(--ledger-text);text-transform:uppercase;letter-spacing:.06em}
+.radek .hodnota{margin:2px 0 0;font-size:15px;font-weight:500;color:var(--blue)}
+.radek.ne .hodnota{color:var(--slate)}
+.radek .poznamka{margin:4px 0 0;color:var(--slate)}
+.radek q{display:block;margin:6px 0 0;padding:6px 8px;background:var(--paper);border-radius:8px;color:var(--ink);quotes:none;overflow-wrap:anywhere}
+footer{padding:4px 16px 14px}
+footer p{margin:0 0 6px;color:var(--slate)}
+footer .signal{font-weight:500;color:var(--ink)}
+footer .zakon{font-size:12px}
+footer a{color:var(--blue);font-weight:500;text-decoration:underline;text-underline-offset:3px}
+footer a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
